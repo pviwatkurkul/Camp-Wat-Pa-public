@@ -1,0 +1,13 @@
+@use "sass:map";
+
+$colors: (
+  "primary100": hsl(80, 16%, 90%),
+  "primary200": hsl(80, 16%, 78%),
+  "primary300": hsl(80, 16%, 50%),
+  "dark": #373d3f,
+  "light": white,
+);
+
+@function color($color) {
+  @return map.get($colors, $color);
+}

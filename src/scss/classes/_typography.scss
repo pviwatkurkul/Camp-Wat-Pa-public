@@ -1,0 +1,95 @@
+@use "../typography";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+.font-family-primary {
+  font-family: typography.$primaryFontFamily !important;
+}
+
+.font-family-secondary {
+  font-family: typography.$secondaryFontFamily !important;
+}
+
+// Typography
+.h1 {
+  @include typography.h1;
+}
+
+.h2 {
+  @include typography.h2;
+}
+
+.h3 {
+  @include typography.h3;
+}
+
+.h4 {
+  @include typography.h4;
+}
+
+.body1 {
+  @include typography.body1;
+}
+
+.body2 {
+  @include typography.body2;
+}
+
+.body3 {
+  @include typography.body3;
+}
+
+.body4 {
+  @include typography.body4;
+}
+
+.caption1 {
+  @include typography.caption1;
+}
+
+.caption2 {
+  @include typography.caption2;
+}
+
+.caption3 {
+  @include typography.caption3;
+}
+
+.link {
+  @include typography.h1;
+}
+
+// Text Transforms
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+// Text Alignments
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+// Font Weights
+$fontWeights: 100, 200, 300, 400, 500, 600, 700, 800;
+@each $str in $fontWeights {
+  .text-weight-#{$str} {
+    font-weight: $str;
+  }
+}
+
+.text-italic {
+  font-style: italic;
+}

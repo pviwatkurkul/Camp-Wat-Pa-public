@@ -23,12 +23,12 @@ export default function Footer() {
             <p className="body4 text-weight-500 text-light mb-ba">Follow Us</p>
             <Stack className="gap-md" direction="row">
               <a href="https://www.facebook.com/campwatpa" target="_blank" rel="noreferrer">
-                <IconButton className="bg-secondary" size="small">
+                <IconButton className="bg-secondary" size="small" aria-label="Facebook Link">
                   <SvgIcon className="fill-dark" component={FacebookIcon} />
                 </IconButton>
               </a>
               <a href="https://www.instagram.com/campwatpa/" target="_blank" rel="noreferrer">
-                <IconButton className="bg-secondary" size="small">
+                <IconButton className="bg-secondary" size="small" aria-label="Instagram Link">
                   <SvgIcon className="fill-dark" component={InstagramIcon} />
                 </IconButton>
               </a>
@@ -37,10 +37,10 @@ export default function Footer() {
         </Container>
       </Stack>
 
-      <img id="footer_background_leaf_top_left" src={LeafTopLeft} alt="Background Leaf - Top Left" />
-      <img id="footer_background_leaf_top_right" src={LeafTopRight} alt="Background Leaf - Top Right" />
-      <img id="footer_background_leaf_bottom_right" src={LeafBottomRight} alt="Background Leaf - Bottom Right" />
-      <img id="footer_background_leaf_bottom_left" src={LeafBottomLeft} alt="Background Leaf - Bottom Left" />
+      <img id="footer_background_leaf_top_left" src={LeafTopLeft} alt="Background Leaf - Top Left" loading="lazy" />
+      <img id="footer_background_leaf_top_right" src={LeafTopRight} alt="Background Leaf - Top Right" loading="lazy" />
+      <img id="footer_background_leaf_bottom_right" src={LeafBottomRight} alt="Background Leaf - Bottom Right" loading="lazy" />
+      <img id="footer_background_leaf_bottom_left" src={LeafBottomLeft} alt="Background Leaf - Bottom Left" loading="lazy" />
     </Box>
   );
 }

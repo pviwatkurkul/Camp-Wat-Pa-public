@@ -61,10 +61,10 @@ export default function Values() {
         </Container>
       </Stack>
 
-        <img id="values_background_leaf_top_left" src={LeafTopLeft} alt="Background Leaf - Top Left" />
-        <img id="values_background_leaf_top_right" src={LeafTopRight} alt="Background Leaf - Top Right" />
-        <img id="values_background_leaf_bottom_right" src={LeafBottomRight} alt="Background Leaf - Bottom Right" />
-        <img id="values_background_leaf_bottom_left" src={LeafBottomLeft} alt="Background Leaf - Bottom Left" />
+      <img id="values_background_leaf_top_left" src={LeafTopLeft} alt="Background Leaf - Top Left" loading="lazy" />
+      <img id="values_background_leaf_top_right" src={LeafTopRight} alt="Background Leaf - Top Right" loading="lazy" />
+      <img id="values_background_leaf_bottom_right" src={LeafBottomRight} alt="Background Leaf - Bottom Right" loading="lazy" />
+      <img id="values_background_leaf_bottom_left" src={LeafBottomLeft} alt="Background Leaf - Bottom Left" loading="lazy" />
     </Box>
   );
 }

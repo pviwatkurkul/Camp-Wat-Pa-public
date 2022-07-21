@@ -51,12 +51,12 @@ export default function Hero() {
           </Stack>
           <Stack className="gap-md" id="socials" direction="row">
             <a href="https://www.facebook.com/campwatpa" target="_blank" rel="noreferrer">
-              <IconButton color="primary" className="bg-lightGrey50" size="small">
+              <IconButton color="primary" className="bg-lightGrey50" size="small" aria-label="Facebook Link">
                 <SvgIcon color="primary" className="fill-light" component={FacebookIcon} />
               </IconButton>
             </a>
             <a href="https://www.instagram.com/campwatpa/" target="_blank" rel="noreferrer">
-              <IconButton className="bg-lightGrey50" size="small">
+              <IconButton className="bg-lightGrey50" size="small" aria-label="Instagram Link">
                 <SvgIcon className="fill-light" component={InstagramIcon} />
               </IconButton>
             </a>

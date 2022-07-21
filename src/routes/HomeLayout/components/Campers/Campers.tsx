@@ -22,8 +22,8 @@ export default function Campers() {
             <Grid container item md={5} alignItems="center" justifyContent="center" display={{ xs: "none", md: "flex" }}>
               <Box id="campers_image_container">
                 <Box className="image_shadow" />
-                <img className="main_image" src={FunA} alt="Campers on a zip line" height="420px" />
-                <img className="sub_image" src={FunB} alt="Campers in zip line gear, fist bumping" height="200px" />
+                <img className="main_image" src={FunA} alt="Campers on a zip line" height="420px" loading="lazy" />
+                <img className="sub_image" src={FunB} alt="Campers in zip line gear, fist bumping" height="200px" loading="lazy" />
               </Box>
             </Grid>
 

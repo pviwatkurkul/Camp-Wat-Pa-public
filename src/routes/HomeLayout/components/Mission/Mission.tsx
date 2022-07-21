@@ -39,16 +39,16 @@ export default function Mission() {
                 minHeight={{ xs: 0 }}
               >
                 <Grid item xs={12} mobile={10} sm={6}>
-                  <img className="mission-image" src={MissionAImage} alt="Many Campers walking in an aisle" />
+                  <img className="mission-image" src={MissionAImage} alt="Many Campers walking in an aisle" loading="lazy" />
                 </Grid>
                 <Grid item sm={6} display={{ xs: "none", mobile: "none", sm: "flex" }}>
-                  <img className="mission-image" src={MissionBImage} alt="Four Campers in Zip Line Gear" />
+                  <img className="mission-image" src={MissionBImage} alt="Four Campers in Zip Line Gear" loading="lazy" />
                 </Grid>
               </Grid>
             </Grid>
 
             <Grid item md={4} display={{ xs: "none", mobile: "none", sm: "none", md: "flex" }}>
-              <img className="mission-image" src={MissionCImage} alt="Two campers sitting on a bench" />
+              <img className="mission-image" src={MissionCImage} alt="Two campers sitting on a bench" loading="lazy" />
             </Grid>
           </Grid>
         </Container>

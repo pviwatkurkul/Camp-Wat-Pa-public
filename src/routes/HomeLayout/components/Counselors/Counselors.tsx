@@ -72,7 +72,7 @@ export default function Counselors() {
             <Grid item sm={6} display={{ xs: "none", md: "flex" }}>
               <Box id="counselors_image_container">
                 <Box className="image_shadow" />
-                <img className="main_image" src={CounselorsImage} alt="Campers on a zip line" height="415px" />
+                <img className="main_image" src={CounselorsImage} alt="Campers on a zip line" height="415px" loading="lazy" />
                 <Box className="image_description">
                   <p className="h4 text-light mb-ba">Meet Our Counselors</p>
                   <p className="caption2 text-light text-weight-300">

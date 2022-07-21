@@ -35,7 +35,7 @@ export default function Sponsors() {
             </Grid>
             <Grid container item xs={smallHeight ? 10 : 12} mobile={9} sm={6} md={6}>
               <Box id="sponsors_image_container">
-                <img className="main_image" src={SponsorsImage} alt="Sponsors" />
+                <img className="main_image" src={SponsorsImage} alt="Sponsors" loading="lazy"/>
               </Box>
             </Grid>
           </Grid>

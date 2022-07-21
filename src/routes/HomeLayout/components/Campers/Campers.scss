@@ -1,0 +1,42 @@
+@use "../../../../scss/index.scss" as *;
+@use "sass:color";
+
+#page_campers {
+  width: 100%;
+  min-height: 85vh;
+  background-color: color("secondaryLight");
+  padding: 6rem 0;
+
+  &.small-width {
+    height: 75vh;
+  }
+
+
+  #campers_image_container {
+    position: relative;
+    .main_image {
+      width: 100%;
+      object-fit: cover;
+      z-index: 1;
+      position: relative;
+    }
+    .sub_image {
+      position: absolute;
+      right: -60px;
+      top: -60px;
+      object-fit: cover;
+      z-index: 2;
+      aspect-ratio: 1/1;
+      border-left: 8px solid color("secondaryLight");
+      border-bottom: 8px solid color("secondaryLight");
+    }
+    .image_shadow {
+      position: absolute;
+      left: -5%;
+      top: -10%;
+      width: 100%;
+      height: 115%;
+      border: 2px solid color.adjust(color("lightGrey"), $alpha: -0.8);
+    }
+  }
+}

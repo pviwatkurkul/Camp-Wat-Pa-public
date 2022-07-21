@@ -2,7 +2,7 @@ import { StyledEngineProvider, ThemeProvider } from "@mui/material";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomeLayout from "./routes/HomeLayout/HomeLayout";
-import Home from "./routes/HomeLayout/routes/Home/Home";
+import Home from "./routes/HomeLayout/routes/Home";
 import { primaryTheme } from "./scss/theme";
 
 function App() {

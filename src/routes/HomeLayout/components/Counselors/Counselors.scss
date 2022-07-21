@@ -1,0 +1,41 @@
+@use "../../../../scss/index.scss" as *;
+@use "sass:color";
+
+#page_counselors {
+  width: 100%;
+  min-height: 85vh;
+  background-color: color("secondaryLight");
+  padding: 6rem 0;
+
+  &.small-width {
+    height: 75vh;
+  }
+
+  #counselors_image_container {
+    position: relative;
+    .main_image {
+      width: 100%;
+      object-fit: cover;
+      z-index: 1;
+      position: relative;
+    }
+    .image_description {
+      background-color: color("primary");
+      width: 325px;
+      height: 257px;
+      position: absolute;
+      right: -3rem;
+      bottom: -1rem;
+      z-index: 2;
+      padding: $base;
+    }
+    .image_shadow {
+      position: absolute;
+      right: -5%;
+      bottom: -5%;
+      width: 100%;
+      height: 100%;
+      border: 2px solid color.adjust(color("lightGrey"), $alpha: -0.8);
+    }
+  }
+}

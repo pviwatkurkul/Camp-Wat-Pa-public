@@ -18,6 +18,9 @@
 .border-radius-2 {
   border-radius: $fullRadius;
 }
+.border-radius-3 {
+  border-radius: $largeRadius;
+}
 .border-radius-circle {
   border-radius: $circleRadius;
 }
@@ -29,4 +32,8 @@
 
 .border-2 {
   border: 2px solid black;
+}
+
+.border-3 {
+  border: 3px solid black;
 }

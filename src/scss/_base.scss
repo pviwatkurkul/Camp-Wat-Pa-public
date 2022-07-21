@@ -1,11 +1,14 @@
 @use "sass:map";
 
 $colors: (
-  "primary100": hsl(80, 16%, 90%),
-  "primary200": hsl(80, 16%, 78%),
-  "primary300": hsl(80, 16%, 50%),
+  "primary": #115533,
+  "secondary": #fdd65b,
+  "secondaryLight": #f9f4e8,
   "dark": #373d3f,
+  "lightGrey": #888888,
+  "lightGrey50": #88888880,
   "light": white,
+  "black": black,
 );
 
 @function color($color) {

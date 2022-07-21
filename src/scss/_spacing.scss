@@ -10,6 +10,7 @@ $xxlarge: 2.5rem;
 
 $breakpoints: (
   "xs": 0px,
+  "mobile": 425px,
   "sm": 600px,
   "md": 900px,
   "lg": 1200px,
@@ -23,7 +24,7 @@ $breakpoints: (
 }
 
 @mixin MaxBreakpoint($breakpoint) {
-  @media (max-width: $breakpoint) {
+  @media (max-width: ($breakpoint - 1)) {
     @content;
   }
 }

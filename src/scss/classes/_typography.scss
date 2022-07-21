@@ -28,6 +28,10 @@
   @include typography.h4;
 }
 
+.h5 {
+  @include typography.h5;
+}
+
 .body1 {
   @include typography.body1;
 }

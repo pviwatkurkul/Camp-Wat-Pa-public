@@ -7,7 +7,7 @@ $secondaryFontFamily: "Source Serif Pro", -apple-system, BlinkMacSystemFont, "Se
 @mixin h1 {
   font-family: $primaryFontFamily;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 3.5rem;
   margin: 0;
 }
@@ -15,7 +15,7 @@ $secondaryFontFamily: "Source Serif Pro", -apple-system, BlinkMacSystemFont, "Se
 @mixin h2 {
   font-family: $primaryFontFamily;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 2rem;
   margin: 0;
 }
@@ -23,7 +23,7 @@ $secondaryFontFamily: "Source Serif Pro", -apple-system, BlinkMacSystemFont, "Se
 @mixin h3 {
   font-family: $primaryFontFamily;
   font-weight: 600;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   line-height: 1.5rem;
   margin: 0;
 }
@@ -31,8 +31,16 @@ $secondaryFontFamily: "Source Serif Pro", -apple-system, BlinkMacSystemFont, "Se
 @mixin h4 {
   font-family: $primaryFontFamily;
   font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  margin: 0;
+}
+
+@mixin h5 {
+  font-family: $primaryFontFamily;
+  font-weight: 600;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1rem;
   margin: 0;
 }
 

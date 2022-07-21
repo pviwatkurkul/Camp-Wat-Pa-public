@@ -9,6 +9,7 @@ $spacings: (
   "lg": spacing.$large,
   "xl": spacing.$xlarge,
   "xxl": spacing.$xxlarge,
+  "auto": auto,
 );
 
 @each $str, $val in $spacings {

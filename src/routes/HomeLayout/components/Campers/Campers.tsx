@@ -1,7 +1,7 @@
 import { Grid, Stack, SvgIcon, Theme, useMediaQuery } from "@mui/material";
 import { Box, Container } from "@mui/system";
-import FunA from "../../../../assets/images/FunA.png";
-import FunB from "../../../../assets/images/FunB.png";
+import FunA from "../../../../assets/images/FunA.webp";
+import FunB from "../../../../assets/images/FunB.webp";
 import Button from "../../../../components/Button/Button";
 import { ReactComponent as MapIcon } from "../.././../../assets/icons/Map.svg";
 import { ReactComponent as CalendarIcon } from "../.././../../assets/icons/Calendar.svg";

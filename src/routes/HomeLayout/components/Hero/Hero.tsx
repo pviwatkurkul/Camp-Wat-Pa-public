@@ -1,8 +1,8 @@
 import { Grid, IconButton, Stack, SvgIcon, Theme, useMediaQuery } from "@mui/material";
 import { Box } from "@mui/system";
 import Button from "../../../../components/Button/Button";
-import HeroBackgroundImage from "../../../../assets/images/HeroBackground.png";
-import HeroImage from "../../../../assets/images/Hero.png";
+import HeroBackgroundImage from "../../../../assets/images/HeroBackground.webp";
+import HeroImage from "../../../../assets/images/Hero.webp";
 import { ReactComponent as ArrowRightIcon } from "../../../../assets/icons/ArrowRight.svg";
 import { ReactComponent as FacebookIcon } from "../../../../assets/icons/Facebook.svg";
 import { ReactComponent as InstagramIcon } from "../../../../assets/icons/Instagram.svg";

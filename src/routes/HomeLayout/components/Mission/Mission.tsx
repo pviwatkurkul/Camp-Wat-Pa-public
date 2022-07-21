@@ -1,8 +1,8 @@
 import { Grid, Stack, Theme, useMediaQuery } from "@mui/material";
 import { Box, Container } from "@mui/system";
-import MissionAImage from "../../../../assets/images/MissionA.png";
-import MissionBImage from "../../../../assets/images/MissionB.png";
-import MissionCImage from "../../../../assets/images/MissionC.png";
+import MissionAImage from "../../../../assets/images/MissionA.webp";
+import MissionBImage from "../../../../assets/images/MissionB.webp";
+import MissionCImage from "../../../../assets/images/MissionC.webp";
 import "./Mission.scss";
 
 export default function Mission() {

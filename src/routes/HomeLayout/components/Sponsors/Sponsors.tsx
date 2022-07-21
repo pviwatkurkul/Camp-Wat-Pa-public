@@ -1,6 +1,6 @@
 import { Grid, Stack, Theme, useMediaQuery } from "@mui/material";
 import { Box, Container } from "@mui/system";
-import SponsorsImage from "../../../../assets/images/Sponsors.png";
+import SponsorsImage from "../../../../assets/images/Sponsors.webp";
 import "./Sponsors.scss";
 
 export default function Sponsors() {
@@ -35,7 +35,7 @@ export default function Sponsors() {
             </Grid>
             <Grid container item xs={smallHeight ? 10 : 12} mobile={9} sm={6} md={6}>
               <Box id="sponsors_image_container">
-                <img className="main_image" src={SponsorsImage} alt="Sponsors" loading="lazy"/>
+                <img className="main_image" src={SponsorsImage} alt="Sponsors" loading="lazy" />
               </Box>
             </Grid>
           </Grid>

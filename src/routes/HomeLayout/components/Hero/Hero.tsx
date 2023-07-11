@@ -37,7 +37,7 @@ export default function Hero() {
           <p className={`${xsScreen ? "h5" : "h4"} text-weight-400 text-light`}>Unifying our community.</p>
           <Stack className="gap-ba" direction="row">
             <Button className="mt-ba" color="secondary" variant="contained" size={xsScreen ? "medium" : "large"}>
-              Learn More
+              <a href="#link_mission">Learn More</a>
             </Button>
             <Button
               className="mt-ba"
@@ -46,7 +46,7 @@ export default function Hero() {
               size={xsScreen ? "medium" : "large"}
               endIcon={<SvgIcon className="fill-light" component={ArrowRightIcon} />}
             >
-              <p className="body2 text-light">Get Involved</p>
+              <a href="#link_mission" className="body2 text-light">Get Involved</a>
             </Button>
           </Stack>
           <Stack className="gap-md" id="socials" direction="row">

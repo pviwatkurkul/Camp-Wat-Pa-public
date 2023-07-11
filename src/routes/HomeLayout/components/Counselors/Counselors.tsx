@@ -28,7 +28,7 @@ export default function Counselors() {
                 skills to one day independently lead. This is our community, and we must take charge in nourishing its growth.
               </p>
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdXMi26prYUadSZlx_030qWwunLePidfyJhn8FJugvyHRWmsg/viewform"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc5rT-4gC77t7IZDdBxJ1o5llba02tfg22TCjmGb14csPEXmQ/viewform"
                 target="_blank"
                 rel="noreferrer"
                 style={{ textDecoration: "none" }}
@@ -53,7 +53,7 @@ export default function Counselors() {
                 alongside campers, counselors are given the opportunities to shape junior counselors and campers into the future of tomorrow.
               </p>
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLScn12b5CRRw38sDC6quwOkP8UGKB5ZSaH3rbqjFd49WqxWoZg/viewform"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfbg83Z_v8o3kY1cS0oSs8SnT0JWWGhtSiIneYGcbkLlAR8Ow/viewform"
                 target="_blank"
                 rel="noreferrer"
                 style={{ textDecoration: "none" }}

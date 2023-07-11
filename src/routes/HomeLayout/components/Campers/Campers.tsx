@@ -42,7 +42,7 @@ export default function Campers() {
                 <Stack direction="column">
                   <p className="caption1 text-dark text-weight-600">Date</p>
                   <p className={`text-dark ${smallHeight ? "caption2 text-weight-400" : "body1"}`}>
-                    Saturday, September 3rd - Monday, September 5th, 2022
+                    Friday, September 1st - Monday, September 4th, 2023
                   </p>
                 </Stack>
               </Stack>
@@ -56,11 +56,11 @@ export default function Campers() {
               </Stack>
 
               <p className={`mb-lg mt-ba text-weight-400 text-dark ${smallHeight ? "caption2 " : "body1"}`}>
-                Applicants must be entering grade 6th to 12th Fall 2022. Age exceptions may be made if space is available.{" "}
+                Applicants must be entering grade 6th to 12th Fall 2023. Age exceptions may be made if space is available.{" "}
               </p>
               <Stack className="gap-sm" direction="row" flexWrap="wrap">
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSeV0gJaaFcLlUMWhf6K8JAKSMkXWmHAwKrA8MgYZLgUGaOSHQ/viewform"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSf6Sl3pSVZZRcxdeLkVXkCwbYdaBj8o78cRnzQZyFpMLouRtg/viewform"
                   target="_blank"
                   rel="noreferrer"
                   style={{ textDecoration: "none" }}
@@ -70,7 +70,7 @@ export default function Campers() {
                   </Button>
                 </a>
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfIg-T3IxZtBxasvLLjCY20GsTtoqfRsrZMOGKNezNCvN4peA/viewform"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfKSmgTxPkiSnkVbYRHl_S6VDXOkV_Hdj-08cis3e09b7H9Sw/viewform"
                   target="_blank"
                   rel="noreferrer"
                   style={{ textDecoration: "none" }}

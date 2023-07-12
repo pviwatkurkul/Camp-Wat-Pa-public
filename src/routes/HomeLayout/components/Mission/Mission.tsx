@@ -1,8 +1,8 @@
 import { Grid, Stack, Theme, useMediaQuery } from "@mui/material";
 import { Box, Container } from "@mui/system";
-import MissionAImage from "../../../../assets/images/MissionA.webp";
-import MissionBImage from "../../../../assets/images/MissionB.webp";
-import MissionCImage from "../../../../assets/images/MissionC.webp";
+import MissionAImage from "../../../../assets/images/MissionA.jpg";
+import MissionBImage from "../../../../assets/images/MissionB.jpg";
+import MissionCImage from "../../../../assets/images/MissionC.jpg";
 import "./Mission.scss";
 
 export default function Mission() {
@@ -48,7 +48,7 @@ export default function Mission() {
             </Grid>
 
             <Grid item md={4} display={{ xs: "none", mobile: "none", sm: "none", md: "flex" }}>
-              <img className="mission-image" src={MissionCImage} alt="Two campers sitting on a bench" loading="lazy" />
+              <img className="mission-image-right" src={MissionCImage} alt="Two campers sitting on a bench" loading="lazy" />
             </Grid>
           </Grid>
         </Container>

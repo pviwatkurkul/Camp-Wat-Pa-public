@@ -1,6 +1,6 @@
 import { Divider, Grid, Stack, SvgIcon, Theme, useMediaQuery } from "@mui/material";
 import { Box, Container } from "@mui/system";
-import CounselorsImage from "../../../../assets/images/Counselors.webp";
+import CounselorsImage from "../../../../assets/images/Counselors.jpg";
 import Button from "../../../../components/Button/Button";
 import { ReactComponent as ArrowRightIcon } from "../.././../../assets/icons/ArrowRight.svg";
 import "./Counselors.scss";

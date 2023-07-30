@@ -33,7 +33,7 @@ export default function Sponsors() {
                 Anything you can help us with will be greatly appreciated!
               </p>
             </Grid>
-            <Grid container item xs={smallHeight ? 10 : 12} mobile={9} sm={6} md={6}>
+            <Grid container item xs={smallHeight ? 10 : 12} mobile={12} md={6}>
               <Box id="sponsors_image_container">
                 <img className="main_image" src={SponsorsImage} alt="Sponsors" loading="lazy" />
               </Box>

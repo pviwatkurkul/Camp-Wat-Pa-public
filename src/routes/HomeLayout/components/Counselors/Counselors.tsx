@@ -21,6 +21,10 @@ export default function Counselors() {
               <p className={`text-dark font-family-secondary mb-ba ${xsScreen ? "h2" : "h1 text-left"}`}>Get Involved</p>
               <Box className={`bg-dark mb-xxl`} height="2px" width="4rem" />
 
+              <div className="text-center" style={{paddingBottom: "40px"}}>
+                <img className="border-radius-3 show-mobile-only center" src={CounselorsImage} alt="Counselors sitting together" width="90%" loading="lazy" />
+              </div>
+
               <p className="body4 text-weight-500 text-dark mb-ba">Junior Counselors</p>
               <p className={`mb-ba text-weight-400 text-dark ${smallHeight ? "caption2 " : "body1"}`}>
                 The Junior Counselor Program was created to provide a firsthand learning experience for future CWP Counselors. Under the guidance and
@@ -72,7 +76,7 @@ export default function Counselors() {
             <Grid item sm={6} display={{ xs: "none", md: "flex" }}>
               <Box id="counselors_image_container">
                 <Box className="image_shadow" />
-                <img className="main_image" src={CounselorsImage} alt="Campers on a zip line" height="415px" loading="lazy" />
+                <img className="main_image" src={CounselorsImage} alt="Counselors sitting together" height="415px" loading="lazy" />
                 <Box className="image_description">
                   <p className="h4 text-light mb-ba">Meet Our Counselors</p>
                   <p className="caption2 text-light text-weight-300">

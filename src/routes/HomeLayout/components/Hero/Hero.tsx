@@ -33,6 +33,7 @@ export default function Hero() {
           sx={{ position: "relative" }}
         >
           <p className={`${xsScreen ? "h2" : "h1"} text-light mb-md`}>CAMP WAT PA</p>
+          <img className="show-mobile-only border-radius-3" id="hero-image-mobile" src={HeroImage} alt="Hero" width="90%" />
           <p className={`${xsScreen ? "h5" : "h4"} text-weight-400 text-light mb-sm`}>Empowering our youth.</p>
           <p className={`${xsScreen ? "h5" : "h4"} text-weight-400 text-light`}>Unifying our community.</p>
           <Stack className="gap-ba" direction="row">

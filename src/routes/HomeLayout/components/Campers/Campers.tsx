@@ -30,6 +30,9 @@ export default function Campers() {
             <Grid item xs={12} md={6} alignItems="center" justifyContent="center">
               <p className={`font-family-secondary mb-ba text-dark ${xsScreen ? "h2" : "h1 text-left"}`}>Join the Fun</p>
               <Box className={`bg-dark mb-xxl`} height="2px" width="4rem" />
+              <div className="text-center" style={{paddingBottom: "40px"}}>
+                <img className="border-radius-3 show-mobile-only center" src={FunA} alt="Campers on a zip line" width="90%" loading="lazy" />
+              </div>
               <p className={`mb-ba text-weight-400 text-dark ${smallHeight ? "caption2 " : "body1"}`}>
                 Camp Wat Pa is an overnight Thai-American youth leadership program camp hosted on Labor Day Weekend. It provides an opportunity for
                 young adults of the Thai-American community to give back and share their experiences to the growing generation of Thai youth. Open to

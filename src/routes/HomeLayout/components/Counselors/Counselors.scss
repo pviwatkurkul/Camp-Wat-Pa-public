@@ -7,8 +7,10 @@
   background-color: color("secondaryLight");
   padding: 6rem 0;
 
-  &.small-width {
-    height: 75vh;
+  @media (min-width: 900px) {
+    .show-mobile-only {
+      display: none !important;
+    }
   }
 
   #counselors_image_container {

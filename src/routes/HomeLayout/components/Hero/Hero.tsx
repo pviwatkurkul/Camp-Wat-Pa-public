@@ -71,11 +71,11 @@ export default function Hero() {
                 <SvgIcon className="fill-light" component={VideoIcon} inheritViewBox sx={{ width: "48px", height: "48px" }} />
               </Grid>
               <Grid className="p-ba" container item xs={8} alignItems="center">
-                <p className="h5 text-font-500 text-light ml-md">CAMP WAT PA 2022 SLIDE SHOW</p>
+                <p className="h5 text-font-500 text-light ml-md">CAMP WAT PA 2023 SLIDE SHOW</p>
                 <Button variant="text">
                   <Stack className="gap-xs" direction="row">
                     <a
-                      href="https://fb.watch/lKBMny13la/"
+                      href="https://www.facebook.com/campwatpa/videos/237378729296564"
                       target="_blank"
                       rel="noreferrer"
                       className="caption1 text-light"

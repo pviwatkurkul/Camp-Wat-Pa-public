@@ -1,0 +1,30 @@
+@use "sass:map";
+
+$xsmall: 0.25rem;
+$small: 0.5rem;
+$medium: 0.75rem;
+$base: 1rem;
+$large: 1.5rem;
+$xlarge: 2rem;
+$xxlarge: 2.5rem;
+
+$breakpoints: (
+  "xs": 0px,
+  "mobile": 425px,
+  "sm": 600px,
+  "md": 900px,
+  "lg": 1200px,
+  "xl": 1536px,
+);
+
+@mixin MinBreakpoint($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin MaxBreakpoint($breakpoint) {
+  @media (max-width: ($breakpoint - 1)) {
+    @content;
+  }
+}

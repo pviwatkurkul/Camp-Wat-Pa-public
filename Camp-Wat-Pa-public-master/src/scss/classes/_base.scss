@@ -1,0 +1,18 @@
+@use "../base" as *;
+
+@each $str, $val in $colors {
+  .text-#{$str} {
+    color: $val !important;
+  }
+
+  .bg-#{$str} {
+    background-color: $val !important;
+  }
+
+  .fill-#{$str} {
+    path,
+    rect {
+      fill: $val !important;
+    }
+  }
+}

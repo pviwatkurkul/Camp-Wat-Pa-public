@@ -1,0 +1,32 @@
+$sizings: (
+  "25": 25%,
+  "50": 50%,
+  "75": 75%,
+  "100": 100%,
+);
+
+@each $str, $val in $sizings {
+  .w-#{$str} {
+    width: $val;
+  }
+
+  .vw-#{$str} {
+    width: #{$str}vw;
+  }
+
+  .h-#{$str} {
+    height: $val;
+  }
+
+  .vh-#{$str} {
+    height: #{$str}vh;
+  }
+}
+
+.w-auto {
+  width: auto;
+}
+
+.h-auto {
+  height: auto;
+}

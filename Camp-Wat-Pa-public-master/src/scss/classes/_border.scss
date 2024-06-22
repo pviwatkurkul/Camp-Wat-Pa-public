@@ -1,0 +1,39 @@
+@use "../base" as *;
+@use "../border" as *;
+
+// Border Colors
+@each $str, $val in $colors {
+  .border-#{$str} {
+    border-color: $val !important;
+  }
+}
+
+// Border Radius
+.border-radius-0 {
+  border-radius: 0px;
+}
+.border-radius-1 {
+  border-radius: $halfRadius;
+}
+.border-radius-2 {
+  border-radius: $fullRadius;
+}
+.border-radius-3 {
+  border-radius: $largeRadius;
+}
+.border-radius-circle {
+  border-radius: $circleRadius;
+}
+
+// Border
+.border-1 {
+  border: 1px solid black;
+}
+
+.border-2 {
+  border: 2px solid black;
+}
+
+.border-3 {
+  border: 3px solid black;
+}

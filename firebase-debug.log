@@ -1,0 +1,164 @@
+[debug] [2025-06-25T04:12:10.211Z] ----------------------------------------------------------------------
+[debug] [2025-06-25T04:12:10.213Z] Command:       /Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/bin/node /Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/bin/firebase login
+[debug] [2025-06-25T04:12:10.213Z] CLI Version:   14.8.0
+[debug] [2025-06-25T04:12:10.213Z] Platform:      darwin
+[debug] [2025-06-25T04:12:10.213Z] Node Version:  v23.4.0
+[debug] [2025-06-25T04:12:10.214Z] Time:          Tue Jun 24 2025 21:12:10 GMT-0700 (Pacific Daylight Time)
+[debug] [2025-06-25T04:12:10.214Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-25T04:12:10.215Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase CLI integrates with Gemini in Firebase API to provide assistant features. Learn more about using Gemini in Firebase and how we train our models: https://firebase.google.com/docs/gemini-in-firebase/set-up-gemini#required-permissions 
+[debug] [2025-06-25T04:12:10.523Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-06-25T04:12:10.523Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] ⚠  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2025-06-25T04:12:10.524Z] Failed to fetch MOTD Error: EACCES: permission denied, mkdir '/Users/purichviwatkurkul/.config/configstore'
+You don't have access to this file.
+
+[debug] [2025-06-25T04:12:19.920Z] Error: EACCES: permission denied, mkdir '/Users/purichviwatkurkul/.config/configstore'
+You don't have access to this file.
+
+    at Object.mkdirSync (node:fs:1361:26)
+    at module.exports.sync (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/make-dir/index.js:114:6)
+    at set all (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:59:12)
+    at Configstore.set (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:91:12)
+    at Command.actionFn (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/lib/commands/login.js:32:35)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-25T04:12:20.189Z] Error: EACCES: permission denied, mkdir '/Users/purichviwatkurkul/.config/configstore'
+You don't have access to this file.
+
+    at Object.mkdirSync (node:fs:1361:26)
+    at module.exports.sync (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/make-dir/index.js:114:6)
+    at set all (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:59:12)
+    at Configstore.set (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:91:12)
+    at process.<anonymous> (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/lib/bin/cli.js:62:39)
+    at process.emit (node:events:525:35)
+    at process.exit (node:internal/process/per_thread:178:15)
+    at Timeout._onTimeout (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/lib/errorOut.js:20:17)
+    at listOnTimeout (node:internal/timers:614:17)
+    at process.processTimers (node:internal/timers:549:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-25T04:12:43.006Z] ----------------------------------------------------------------------
+[debug] [2025-06-25T04:12:43.008Z] Command:       /Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/bin/node /Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/bin/firebase login
+[debug] [2025-06-25T04:12:43.008Z] CLI Version:   14.8.0
+[debug] [2025-06-25T04:12:43.008Z] Platform:      darwin
+[debug] [2025-06-25T04:12:43.008Z] Node Version:  v23.4.0
+[debug] [2025-06-25T04:12:43.009Z] Time:          Tue Jun 24 2025 21:12:43 GMT-0700 (Pacific Daylight Time)
+[debug] [2025-06-25T04:12:43.009Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-25T04:12:43.010Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase CLI integrates with Gemini in Firebase API to provide assistant features. Learn more about using Gemini in Firebase and how we train our models: https://firebase.google.com/docs/gemini-in-firebase/set-up-gemini#required-permissions 
+[debug] [2025-06-25T04:12:43.317Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-06-25T04:12:43.318Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] ⚠  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2025-06-25T04:12:43.318Z] Failed to fetch MOTD Error: EACCES: permission denied, mkdir '/Users/purichviwatkurkul/.config/configstore'
+You don't have access to this file.
+
+[debug] [2025-06-25T04:14:22.664Z] Error: EACCES: permission denied, mkdir '/Users/purichviwatkurkul/.config/configstore'
+You don't have access to this file.
+
+    at Object.mkdirSync (node:fs:1361:26)
+    at module.exports.sync (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/make-dir/index.js:114:6)
+    at set all (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:59:12)
+    at Configstore.set (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:91:12)
+    at Command.actionFn (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/lib/commands/login.js:32:35)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-25T04:14:22.936Z] Error: EACCES: permission denied, mkdir '/Users/purichviwatkurkul/.config/configstore'
+You don't have access to this file.
+
+    at Object.mkdirSync (node:fs:1361:26)
+    at module.exports.sync (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/make-dir/index.js:114:6)
+    at set all (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:59:12)
+    at Configstore.set (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:91:12)
+    at process.<anonymous> (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/lib/bin/cli.js:62:39)
+    at process.emit (node:events:525:35)
+    at process.exit (node:internal/process/per_thread:178:15)
+    at Timeout._onTimeout (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/lib/errorOut.js:20:17)
+    at listOnTimeout (node:internal/timers:614:17)
+    at process.processTimers (node:internal/timers:549:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-25T04:20:51.997Z] ----------------------------------------------------------------------
+[debug] [2025-06-25T04:20:51.999Z] Command:       /Users/purichviwatkurkul/.nvm/versions/node/v20.19.3/bin/node /Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/bin/firebase login
+[debug] [2025-06-25T04:20:51.999Z] CLI Version:   14.8.0
+[debug] [2025-06-25T04:20:51.999Z] Platform:      darwin
+[debug] [2025-06-25T04:20:51.999Z] Node Version:  v20.19.3
+[debug] [2025-06-25T04:20:52.000Z] Time:          Tue Jun 24 2025 21:20:52 GMT-0700 (Pacific Daylight Time)
+[debug] [2025-06-25T04:20:52.000Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-25T04:20:52.001Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase CLI integrates with Gemini in Firebase API to provide assistant features. Learn more about using Gemini in Firebase and how we train our models: https://firebase.google.com/docs/gemini-in-firebase/set-up-gemini#required-permissions 
+[debug] [2025-06-25T04:20:52.338Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-06-25T04:20:52.338Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] ⚠  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2025-06-25T04:20:52.339Z] Failed to fetch MOTD Error: EACCES: permission denied, mkdir '/Users/purichviwatkurkul/.config/configstore'
+You don't have access to this file.
+
+[debug] [2025-06-25T04:20:57.378Z] Error: EACCES: permission denied, mkdir '/Users/purichviwatkurkul/.config/configstore'
+You don't have access to this file.
+
+    at Object.mkdirSync (node:fs:1372:26)
+    at module.exports.sync (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/make-dir/index.js:114:6)
+    at set all [as all] (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:59:12)
+    at Configstore.set (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:91:12)
+    at Command.actionFn (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/lib/commands/login.js:32:35)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-25T04:20:57.649Z] Error: EACCES: permission denied, mkdir '/Users/purichviwatkurkul/.config/configstore'
+You don't have access to this file.
+
+    at Object.mkdirSync (node:fs:1372:26)
+    at module.exports.sync (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/make-dir/index.js:114:6)
+    at set all [as all] (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:59:12)
+    at Configstore.set (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:91:12)
+    at process.<anonymous> (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/lib/bin/cli.js:62:39)
+    at process.emit (node:events:536:35)
+    at process.exit (node:internal/process/per_thread:184:15)
+    at Timeout._onTimeout (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/lib/errorOut.js:20:17)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-25T04:21:34.857Z] ----------------------------------------------------------------------
+[debug] [2025-06-25T04:21:34.859Z] Command:       /Users/purichviwatkurkul/.nvm/versions/node/v20.19.3/bin/node /Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/bin/firebase login
+[debug] [2025-06-25T04:21:34.859Z] CLI Version:   14.8.0
+[debug] [2025-06-25T04:21:34.859Z] Platform:      darwin
+[debug] [2025-06-25T04:21:34.860Z] Node Version:  v20.19.3
+[debug] [2025-06-25T04:21:34.860Z] Time:          Tue Jun 24 2025 21:21:34 GMT-0700 (Pacific Daylight Time)
+[debug] [2025-06-25T04:21:34.860Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-25T04:21:34.861Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase CLI integrates with Gemini in Firebase API to provide assistant features. Learn more about using Gemini in Firebase and how we train our models: https://firebase.google.com/docs/gemini-in-firebase/set-up-gemini#required-permissions 
+[debug] [2025-06-25T04:21:35.186Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-06-25T04:21:35.187Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] ⚠  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2025-06-25T04:21:35.188Z] Failed to fetch MOTD Error: EACCES: permission denied, mkdir '/Users/purichviwatkurkul/.config/configstore'
+You don't have access to this file.
+
+[debug] [2025-06-25T04:21:42.956Z] Error: EACCES: permission denied, mkdir '/Users/purichviwatkurkul/.config/configstore'
+You don't have access to this file.
+
+    at Object.mkdirSync (node:fs:1372:26)
+    at module.exports.sync (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/make-dir/index.js:114:6)
+    at set all [as all] (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:59:12)
+    at Configstore.set (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:91:12)
+    at Command.actionFn (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/lib/commands/login.js:32:35)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-25T04:21:43.221Z] Error: EACCES: permission denied, mkdir '/Users/purichviwatkurkul/.config/configstore'
+You don't have access to this file.
+
+    at Object.mkdirSync (node:fs:1372:26)
+    at module.exports.sync (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/make-dir/index.js:114:6)
+    at set all [as all] (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:59:12)
+    at Configstore.set (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/node_modules/configstore/index.js:91:12)
+    at process.<anonymous> (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/lib/bin/cli.js:62:39)
+    at process.emit (node:events:536:35)
+    at process.exit (node:internal/process/per_thread:184:15)
+    at Timeout._onTimeout (/Users/purichviwatkurkul/.nvm/versions/node/v23.4.0/lib/node_modules/firebase-tools/lib/errorOut.js:20:17)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[error] 
+[error] Error: An unexpected error has occurred.

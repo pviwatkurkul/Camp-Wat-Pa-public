@@ -21,8 +21,14 @@ export default function Counselors() {
               <p className={`text-dark font-family-secondary mb-ba ${xsScreen ? "h2" : "h1 text-left"}`}>Get Involved</p>
               <Box className={`bg-dark mb-xxl`} height="2px" width="4rem" />
 
-              <div className="text-center" style={{paddingBottom: "40px"}}>
-                <img className="border-radius-3 show-mobile-only center" src={CounselorsImage} alt="Counselors sitting together" width="90%" loading="lazy" />
+              <div className="text-center" style={{ paddingBottom: "40px" }}>
+                <img
+                  className="border-radius-3 show-mobile-only center"
+                  src={CounselorsImage}
+                  alt="Counselors sitting together"
+                  width="90%"
+                  loading="lazy"
+                />
               </div>
 
               <p className="body4 text-weight-500 text-dark mb-ba">Junior Counselors</p>
@@ -32,7 +38,7 @@ export default function Counselors() {
                 skills to one day independently lead. This is our community, and we must take charge in nourishing its growth.
               </p>
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdocU8ZsXtua1043cmd73dZfohCkRjg8BuEB-7gNeCnlcRAiQ/viewform?usp=sf_link"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdW856Koiv18NhIckjcvByWTDmxb57JWvRJTP7ZitNlfl1IDQ/viewform"
                 target="_blank"
                 rel="noreferrer"
                 style={{ textDecoration: "none" }}
@@ -57,7 +63,7 @@ export default function Counselors() {
                 alongside campers, counselors are given the opportunities to shape junior counselors and campers into the future of tomorrow.
               </p>
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLScnk9YTYiKOlz7gJSAJiOp4O2ToBzbI0VTx_MkniIuQTpm1PQ/viewform?usp=sf_link"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeqPXubV4_1f1MbjMlULJGP-06lKCBub2B2vjM08Oghdy4efg/viewform?usp=header"
                 target="_blank"
                 rel="noreferrer"
                 style={{ textDecoration: "none" }}

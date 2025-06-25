@@ -30,7 +30,7 @@ export default function Campers() {
             <Grid item xs={12} md={6} alignItems="center" justifyContent="center">
               <p className={`font-family-secondary mb-ba text-dark ${xsScreen ? "h2" : "h1 text-left"}`}>Join the Fun</p>
               <Box className={`bg-dark mb-xxl`} height="2px" width="4rem" />
-              <div className="text-center" style={{paddingBottom: "40px"}}>
+              <div className="text-center" style={{ paddingBottom: "40px" }}>
                 <img className="border-radius-3 show-mobile-only center" src={FunA} alt="Campers on a zip line" width="90%" loading="lazy" />
               </div>
               <p className={`mb-ba text-weight-400 text-dark ${smallHeight ? "caption2 " : "body1"}`}>
@@ -45,7 +45,7 @@ export default function Campers() {
                 <Stack direction="column">
                   <p className="caption1 text-dark text-weight-600">Date</p>
                   <p className={`text-dark ${smallHeight ? "caption2 text-weight-400" : "body1"}`}>
-                  Friday, August 30th - Monday, September 2nd, 2024
+                    Friday, August 30th - Monday, September 2nd, 2024
                   </p>
                 </Stack>
               </Stack>
@@ -63,7 +63,7 @@ export default function Campers() {
               </p>
               <Stack className="gap-sm" direction="row" flexWrap="wrap">
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfF7Ycs5exS1VaAyomIJvyYQGvhSux1NoEBnduLPjSS0gG8Xg/viewform?usp=sf_link"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdpATNfhrw8veQErcAZkJFRHuVps79RaSuXfn_BPS629XcnBQ/viewform?usp=sharing&ouid=101071094199641953419"
                   target="_blank"
                   rel="noreferrer"
                   style={{ textDecoration: "none" }}
@@ -73,7 +73,7 @@ export default function Campers() {
                   </Button>
                 </a>
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSekLvRvBwYIXj4D5rfjWvRHTEAgi3RqmbKo0iIozf7tYP2y-A/viewform?usp=sf_link"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdHZdo8DwUrK4IX4mpvDV-xevI4DL4EAcpLfJUSBTGZRlmdRA/viewform?usp=header"
                   target="_blank"
                   rel="noreferrer"
                   style={{ textDecoration: "none" }}

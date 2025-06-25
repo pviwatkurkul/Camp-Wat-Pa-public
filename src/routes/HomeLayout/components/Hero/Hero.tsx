@@ -47,7 +47,9 @@ export default function Hero() {
               size={xsScreen ? "medium" : "large"}
               endIcon={<SvgIcon className="fill-light" component={ArrowRightIcon} />}
             >
-              <a href="#link_mission" className="body2 text-light">Get Involved</a>
+              <a href="#link_mission" className="body2 text-light">
+                Get Involved
+              </a>
             </Button>
           </Stack>
           <Stack className="gap-md" id="socials" direction="row">

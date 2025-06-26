@@ -63,7 +63,7 @@ export default function Campers() {
               </p>
               <Stack className="gap-sm" direction="row" flexWrap="wrap">
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdpATNfhrw8veQErcAZkJFRHuVps79RaSuXfn_BPS629XcnBQ/viewform?usp=sharing&ouid=101071094199641953419"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdpATNfhrw8veQErcAZkJFRHuVps79RaSuXfn_BPS629XcnBQ/viewform?usp=header"
                   target="_blank"
                   rel="noreferrer"
                   style={{ textDecoration: "none" }}

@@ -2,7 +2,7 @@ import { Grid, IconButton, Stack, SvgIcon, Theme, useMediaQuery } from "@mui/mat
 import { Box } from "@mui/system";
 import Button from "../../../../components/Button/Button";
 import HeroBackgroundImage from "../../../../assets/images/HeroBackground.webp";
-import HeroImage from "../../../../assets/images/Hero.jpg";
+import HeroImage from "../../../../assets/images/HeroFlyer2025.webp";
 import { ReactComponent as ArrowRightIcon } from "../../../../assets/icons/ArrowRight.svg";
 import { ReactComponent as FacebookIcon } from "../../../../assets/icons/Facebook.svg";
 import { ReactComponent as InstagramIcon } from "../../../../assets/icons/Instagram.svg";
@@ -66,7 +66,7 @@ export default function Hero() {
           </Stack>
         </Grid>
         <Grid item md={5} display={{ xs: "none", md: "flex" }} sx={{ position: "relative" }}>
-          <img className="border-radius-3" src={HeroImage} id="hero_image" alt="Hero" width="100%" />
+          <img className="border-radius-3" src={HeroImage} id="hero_image" alt="Hero" width="80%" />
           <Box id="hero_video_card">
             <Grid className="h-100" container>
               <Grid container item xs={4} className="left-section" alignItems="center" justifyContent="center">

@@ -1,6 +1,6 @@
 import { Grid, Stack, Theme, useMediaQuery } from "@mui/material";
 import { Box, Container } from "@mui/system";
-import SponsorsImage from "../../../../assets/images/Sponsors.webp";
+import SponsorsImage from "../../../../assets/images/Sponsors2025.webp";
 import "./Sponsors.scss";
 
 export default function Sponsors() {

@@ -45,7 +45,7 @@ export default function Campers() {
                 <Stack direction="column">
                   <p className="caption1 text-dark text-weight-600">Date</p>
                   <p className={`text-dark ${smallHeight ? "caption2 text-weight-400" : "body1"}`}>
-                    Friday, August 30th - Monday, September 2nd, 2024
+                    Friday, August 29th - Monday, September 1st, 2025
                   </p>
                 </Stack>
               </Stack>
@@ -59,7 +59,7 @@ export default function Campers() {
               </Stack>
 
               <p className={`mb-lg mt-ba text-weight-400 text-dark ${smallHeight ? "caption2 " : "body1"}`}>
-                Applicants must be entering grade 6th to 12th Fall 2023. Age exceptions may be made if space is available.{" "}
+                Applicants must be entering grade 6th to 12th Fall 2025. Age exceptions may be made if space is available.{" "}
               </p>
               <Stack className="gap-sm" direction="row" flexWrap="wrap">
                 <a

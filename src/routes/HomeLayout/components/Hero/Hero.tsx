@@ -47,7 +47,9 @@ export default function Hero() {
               size={xsScreen ? "medium" : "large"}
               endIcon={<SvgIcon className="fill-light" component={ArrowRightIcon} />}
             >
-              <a href="#link_mission" className="body2 text-light">Get Involved</a>
+              <a href="#link_mission" className="body2 text-light">
+                Get Involved
+              </a>
             </Button>
           </Stack>
           <Stack className="gap-md" id="socials" direction="row">
@@ -75,7 +77,7 @@ export default function Hero() {
                 <Button variant="text">
                   <Stack className="gap-xs" direction="row">
                     <a
-                      href="https://www.facebook.com/campwatpa/videos/237378729296564"
+                      href="https://www.youtube.com/watch?v=PbqqJv0hAQM"
                       target="_blank"
                       rel="noreferrer"
                       className="caption1 text-light"

@@ -2,7 +2,7 @@ import { Grid, IconButton, Stack, SvgIcon, Theme, useMediaQuery } from "@mui/mat
 import { Box } from "@mui/system";
 import Button from "../../../../components/Button/Button";
 import HeroBackgroundImage from "../../../../assets/images/HeroBackground.webp";
-import HeroImage from "../../../../assets/images/Hero.jpg";
+import HeroImage from "../../../../assets/images/2026Flyer.webp";
 import { ReactComponent as ArrowRightIcon } from "../../../../assets/icons/ArrowRight.svg";
 import { ReactComponent as FacebookIcon } from "../../../../assets/icons/Facebook.svg";
 import { ReactComponent as InstagramIcon } from "../../../../assets/icons/Instagram.svg";
@@ -73,7 +73,7 @@ export default function Hero() {
                 <SvgIcon className="fill-light" component={VideoIcon} inheritViewBox sx={{ width: "48px", height: "48px" }} />
               </Grid>
               <Grid className="p-ba" container item xs={8} alignItems="center">
-                <p className="h5 text-font-500 text-light ml-md">CAMP WAT PA 2023 SLIDE SHOW</p>
+                <p className="h5 text-font-500 text-light ml-md">CAMP WAT PA 2025 SLIDE SHOW</p>
                 <Button variant="text">
                   <Stack className="gap-xs" direction="row">
                     <a

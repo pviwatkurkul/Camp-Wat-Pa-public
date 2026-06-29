@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "camp-wat-pa-website",
     "public": "build",
     "ignore": [
       "firebase.json",

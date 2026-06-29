@@ -13,6 +13,31 @@ export default function Hero() {
   const xsScreen = useMediaQuery<Theme>((theme) => theme.breakpoints.down("sm"));
   const smScreen = useMediaQuery<Theme>((theme) => theme.breakpoints.down("md"));
 
+  const videoCard = (
+    <Grid className="h-100" container>
+      <Grid container item xs={4} className="left-section" alignItems="center" justifyContent="center">
+        <SvgIcon className="fill-light" component={VideoIcon} inheritViewBox sx={{ width: "48px", height: "48px" }} />
+      </Grid>
+      <Grid className="p-ba" container item xs={8} alignItems="center">
+        <p className="h5 text-font-500 text-light ml-md">CAMP WAT PA 2025 SLIDE SHOW</p>
+        <Button variant="text">
+          <Stack className="gap-xs" direction="row">
+            <a
+              href="https://www.youtube.com/watch?v=PbqqJv0hAQM"
+              target="_blank"
+              rel="noreferrer"
+              className="caption1 text-light"
+              style={{ textDecoration: "none" }}
+            >
+              WATCH THE VIDEO
+            </a>
+            <SvgIcon className="fill-light" component={ArrowRightIcon} sx={{ width: "12px", height: "12px" }} />
+          </Stack>
+        </Button>
+      </Grid>
+    </Grid>
+  );
+
   return (
     <Box id="page_hero">
       {/* Background */}
@@ -34,6 +59,9 @@ export default function Hero() {
         >
           <p className={`${xsScreen ? "h2" : "h1"} text-light mb-md`}>CAMP WAT PA</p>
           <img className="show-mobile-only border-radius-3" id="hero-image-mobile" src={HeroImage} alt="Hero" width="90%" />
+          <Box className="show-mobile-only" id="hero_video_card_mobile">
+            {videoCard}
+          </Box>
           <p className={`${xsScreen ? "h5" : "h4"} text-weight-400 text-light mb-sm`}>Empowering our youth.</p>
           <p className={`${xsScreen ? "h5" : "h4"} text-weight-400 text-light`}>Unifying our community.</p>
           <Stack className="gap-ba" direction="row">
@@ -41,6 +69,7 @@ export default function Hero() {
               <a href="#link_mission">Learn More</a>
             </Button>
             <Button
+              id="get_involved_btn"
               className="mt-ba"
               color="primary"
               variant="text"
@@ -67,30 +96,7 @@ export default function Hero() {
         </Grid>
         <Grid item md={5} display={{ xs: "none", md: "flex" }} sx={{ position: "relative" }}>
           <img className="border-radius-3" src={HeroImage} id="hero_image" alt="Hero" width="100%" />
-          <Box id="hero_video_card">
-            <Grid className="h-100" container>
-              <Grid container item xs={4} className="left-section" alignItems="center" justifyContent="center">
-                <SvgIcon className="fill-light" component={VideoIcon} inheritViewBox sx={{ width: "48px", height: "48px" }} />
-              </Grid>
-              <Grid className="p-ba" container item xs={8} alignItems="center">
-                <p className="h5 text-font-500 text-light ml-md">CAMP WAT PA 2025 SLIDE SHOW</p>
-                <Button variant="text">
-                  <Stack className="gap-xs" direction="row">
-                    <a
-                      href="https://www.youtube.com/watch?v=PbqqJv0hAQM"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="caption1 text-light"
-                      style={{ textDecoration: "none" }}
-                    >
-                      WATCH THE VIDEO
-                    </a>
-                    <SvgIcon className="fill-light" component={ArrowRightIcon} sx={{ width: "12px", height: "12px" }} />
-                  </Stack>
-                </Button>
-              </Grid>
-            </Grid>
-          </Box>
+          <Box id="hero_video_card">{videoCard}</Box>
         </Grid>
       </Grid>
     </Box>

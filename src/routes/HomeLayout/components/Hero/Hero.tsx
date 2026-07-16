@@ -3,6 +3,7 @@ import { Box } from "@mui/system";
 import Button from "../../../../components/Button/Button";
 import HeroBackgroundImage from "../../../../assets/images/HeroBackground.webp";
 import HeroImage from "../../../../assets/images/2026Flyer.webp";
+import HeroImageB from "../../../../assets/images/2026FlyerB.webp";
 import { ReactComponent as ArrowRightIcon } from "../../../../assets/icons/ArrowRight.svg";
 import { ReactComponent as FacebookIcon } from "../../../../assets/icons/Facebook.svg";
 import { ReactComponent as InstagramIcon } from "../../../../assets/icons/Instagram.svg";

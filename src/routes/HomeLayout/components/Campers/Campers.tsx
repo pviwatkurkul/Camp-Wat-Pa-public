@@ -45,7 +45,7 @@ export default function Campers() {
                 <Stack direction="column">
                   <p className="caption1 text-dark text-weight-600">Date</p>
                   <p className={`text-dark ${smallHeight ? "caption2 text-weight-400" : "body1"}`}>
-                    Friday, August 30th - Monday, September 2nd, 2024
+                    Friday, September 4th - Monday, September 7th, 2026
                   </p>
                 </Stack>
               </Stack>
